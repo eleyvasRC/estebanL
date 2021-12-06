@@ -1,51 +1,55 @@
 /// <reference types="Cypress"/>
 
 //Suite de primeros CP
-describe('Detonación de eventos Clientes Estandar', function()
+describe('Detonación de eventos estandar AUTOZONE', function()
 {
 
     beforeEach(() => { 
         
-        //Cargar parametros
+        //Llamar rutina carga de configuración cliente
+         //Cargar parametros de parametros.json 
         cy.fixture('parametros').then(function(param){
             this.param = param
 
-            //Ingresar a página
-            cy.login(this.param.ambiente.url_amb, cliente+this.param.credenciales.user, this.param.credenciales_ayvi.password)
-         })
+            //Llamar rutina login
+            cy.login
+            (this.param.ambiente.url_amb, this.param.credenciales.credenciales_autozone.user, this.param.credenciales.credenciales_autozone.password)
+        })
 
-         //Cargar Inputs
+         //Cargar Inputs de inputs.json
         cy.fixture('inputs').then(function(inputs){
             this.inputs = inputs
         })
-       
+
     })
 
+//1 Evento Inicio de carga
+    it('Evento Inicio de carga AUTOZONE', function(){
+        //Llamar rutina evento entrada
+        cy.rutinaEventosListado
+        (this.param.modulos.eventos.inic_carga, this.inputs.inputs_autozone, this.param.credenciales.credenciales_autozone.mensaje)
 
-    //CP detonación de evento Inicio de carga
-    it('CP detonación de evento Inicio de Carga', function(){
+    })
 
-        cy.eventoInicCarga
-        (this.param.eventos.inic_carga, this.inputs.inputs_autozone.ini_carga.shipment, )
-   })   
-   //Fin CP
+//2 Evento Fin de carga
+it('Evento Inicio de carga AUTOZONE', function(){
+    //Llamar rutina evento entrada
+    cy.rutinaEventosListado
+    (this.param.modulos.eventos.fin_carga, this.inputs.inputs_autozone, this.param.credenciales.credenciales_autozone.mensaje)
 
-   //CP detonación de evento Fin de carga
-   it('CP detonación de evento Fin de Carga', function(){
+    })
 
-        cy.eventoFinCarga
-        (this.param.modulos.eventos.fin_carga, this.inputs.inputs_ayvi.fin_carga.shipment, this.param.credenciales.credenciales_ayvi.cliente)
-    
-    }) 
-    //Fin CP
+//3 Evento Entrada
+it('Evento Entrada AUTOZONE', function(){
+    //Llamar rutina evento entrada
+    cy.rutinaEventosFormulario
+    (this.param.modulos.eventos.entrada, this.inputs.inputs_autozone, this.param.credenciales.credenciales_autozone.mensaje)
+})  
 
-   //Evento Documentos
-
-    /* it('Documentos', function(){
-        //ingersar a modulo de carga de Documentos
-        //Validar que contenga el viaje
-        //validar 
-    }) */
-
+it('Evento Entega Doc. AUTOZONE', function(){
+    //Llamar rutina evento entrada
+    cy.rutinaEventosFormulario
+    (this.param.modulos.eventos.docsA, this.inputs.inputs_autozone, this.param.credenciales.credenciales_autozone.mensaje)
+})  
 
 })

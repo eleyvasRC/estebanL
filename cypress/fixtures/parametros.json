@@ -23,6 +23,12 @@
         "user": "admin_orbis",
         "password": "Soporte135*"
         },
+        "credenciales_colgate":
+        {
+        "cliente": "colgate",
+        "user": "admin_colgate",
+        "password": "Password12$#"
+        },
       "credenciales_ferrero":
         {
         "cliente": "ferrero",
@@ -41,8 +47,10 @@
       "entrada": "ENTRANCE",
       "inic_carga": "START_LOAD",
       "fin_carga": "END_LOAD",
-      "docs": "ENTRANCE",
-      "salida": "EXIT"
+      "docs": "DOCUMENT",
+      "docsA": "document",
+      "salida": "EXIT",
+      "Generico1":"GENERIC_01"
       },
     "tendering":
       {
