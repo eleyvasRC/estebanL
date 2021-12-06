@@ -7,7 +7,12 @@ describe('Detonación de eventos estandar AUTOZONE', function()
     beforeEach(() => { 
         
         //Llamar rutina carga de configuración cliente
+<<<<<<< HEAD
          //Cargar parametros de parametros.json 
+=======
+    
+        //Cargar parametros de parametros.json 
+>>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
         cy.fixture('parametros').then(function(param){
             this.param = param
 
@@ -20,6 +25,7 @@ describe('Detonación de eventos estandar AUTOZONE', function()
         cy.fixture('inputs').then(function(inputs){
             this.inputs = inputs
         })
+<<<<<<< HEAD
 
     })
 
@@ -52,4 +58,19 @@ it('Evento Entega Doc. AUTOZONE', function(){
     (this.param.modulos.eventos.docsA, this.inputs.inputs_autozone, this.param.credenciales.credenciales_autozone.mensaje)
 })  
 
+=======
+       
+    })
+
+     //CP Carga de citas
+     it('Carga de pedidos', function(){
+
+        //Llamar rutina rutinaCargaCitastxt
+        cy.rutinaCargaCitastxt
+        (this.param.modulos.planeacion.carga_pedidos, this.param.archivos.carga_pedidos_txt_autozone,this.param.archivos.nume_pedidos)
+        
+    })  
+    //Fin CP
+
+>>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
 })

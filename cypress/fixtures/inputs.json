@@ -1,10 +1,15 @@
 {
     "inputs_ayvi": [
         {
+<<<<<<< HEAD
             "caso_prueba": "Registro exitoso",
             "mensaje": "Viaje no encontrado",
             "credencial_condutor_cert": "70525",
             "shipment": "ESTEBAN0311T",
+=======
+            "credencial_condutor_cert": "70525",
+            "shipment": "EST0012",
+>>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
             "eco_caja": "123",
             "trailer_eco": "prueba eco",
             "aux_1": "Pruebaazux",
@@ -15,7 +20,12 @@
             "aux_4": "Pruebaazux4",
             "note": "Omi prueba",
             "certificated_driver": "70525",
+<<<<<<< HEAD
             "uncertificated_driver": "Esteban Leyva conductor"
+=======
+            "uncertificated_driver": "Esteban Leyva conductor",
+            "confirmation": "texto cualquiera"
+>>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
         }
     ],
     "inputs_autozone": [
@@ -68,5 +78,33 @@
             "aux_4": "Pruebaazux4",
             "note": "Omi prueba"
         }
+<<<<<<< HEAD
     ]
 }
+=======
+    ],
+    "inputs_vasconia": [
+        {
+            "credencial_condutor_cert": "70525",
+            "caso_prueba": "Registro exitoso",
+            "mensaje": "Viaje no encontrado",
+            "credential": "70525",
+            "shipment": "2486",
+            "eco_caja": "123",
+            "trailer_eco": "prueba eco",
+            "aux_1": "Pruebaazux",
+            "aux_2": "Pruebaazux2",
+            "aux_3": "Pruebaazux3",
+            "credencial_condutor_no_cert": "Esteban Leyva",
+            "lt": "Rc",
+            "aux_4": "Pruebaazux4",
+            "note": "Omi prueba",
+            "trailer_plate": "123",
+            "truck_plate": "prueba eco",
+            "certificated_driver": "70525",
+            "uncertificated_driver": "Esteban Leyva conductor",
+            "confirmation": "texto cualquiera"
+        }
+    ]
+}
+>>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
