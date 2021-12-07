@@ -22,6 +22,15 @@
         "mensaje2": "Este evento ya fue registrado en otro momento",
         "mensaje3": "Viaje no encontrado"
         },  
+        "credenciales_unilever":
+        {
+        "cliente": "autozone",
+        "user": "admin_unilever_op",
+        "password": "Password123$",
+        "mensaje": "Registro exitoso",
+        "mensaje2": "Este evento ya fue registrado en otro momento",
+        "mensaje3": "Viaje no encontrado"
+        },  
       "credenciales_orbis":
         {
         "cliente": "orbis",
