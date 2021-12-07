@@ -23,19 +23,6 @@ describe('Detonación de eventos estandar AYVI', function()
 
     })
 
-<<<<<<< HEAD
-//1 Evento Entrada
-    it('Evento Entrada AYVI', function(){
-        //Llamar rutina evento entrada
-        cy.rutinaEventosFormulario
-        (this.param.modulos.eventos.entrada, this.inputs.inputs_ayvi, this.param.credenciales.credenciales_ayvi.mensaje)
-    })  
-//2 Evento Inicio de carga
-    it('Evento Inicio de carga AYVI', function(){
-        //Llamar rutina evento 
-        cy.rutinaEventosListado
-        (this.param.modulos.eventos.inic_carga, this.inputs.inputs_ayvi, this.param.credenciales.credenciales_ayvi.mensaje)
-=======
      //CP Carga de citas
      it('Carga de citas', function(){
 
@@ -45,30 +32,8 @@ describe('Detonación de eventos estandar AYVI', function()
         
     })  
     //Fin CP
->>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
 
     })  
-//3 Evento Fin de carga
-    it('Evento Fin de carga AYVI', function(){
-        //Llamar rutina evento 
-        cy.rutinaEventosListado
-        (this.param.modulos.eventos.fin_carga, this.inputs.inputs_ayvi, this.param.credenciales.credenciales_ayvi.mensaje)
-
-<<<<<<< HEAD
-    })  
-//3 Evento Documentos
-    it('Evento Docuemntos AYVI', function(){
-        //Llamar rutina evento 
-        cy.rutinaEventosListado
-        (this.param.modulos.eventos.docs, this.inputs.inputs_ayvi, this.param.credenciales.credenciales_ayvi.mensaje)
-
-    }) 
-//4 Evento Salida
-    it('Evento Salida AYVI', function(){
-    //Llamar rutina evento 
-    cy.rutinaEventosListado
-    (this.param.modulos.eventos.salida, this.inputs.inputs_ayvi, this.param.credenciales.credenciales_ayvi.mensaje)
-=======
     //CP evento Entrada
      it('Evento Entrada Ayvi', function(){
         
@@ -121,7 +86,3 @@ describe('Detonación de eventos estandar AYVI', function()
         
     }) 
     //Fin CP
->>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
-
-    })
-})
