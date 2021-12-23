@@ -22,7 +22,7 @@ Cypress.Commands.add("login", (url, user, pass) => {
 
 
 //Rutina eventos por formulario
-Cypress.Commands.add("rutinaEventosFormulario", (url_event, array_inputs, msj) => {
+Cypress.Commands.add("rutinaEventosFormulario", (url_event, array_inputs, msj, client) => {
          
     //***** Código para validar si existe el evento ENTRADA *****//
     /* cy.get('.has_sub').as('Eventos')
@@ -112,13 +112,19 @@ Cypress.Commands.add("rutinaEventosFormulario", (url_event, array_inputs, msj) =
 
     //Guardar evento
     cy.get('#shipment_card_button_save').should('be.visible').click() 
+
     
-    //Validar mensaje de evento
-    cy.get('.toast-message').contains(msj).then((contains)=>{
+    if(client=="autozone"){
+        cy.get('#travel-document-content > .fa').should('be.visible').click()
+    }else{
+        
+        //Validar mensaje de evento
+        cy.get('.toast-message').contains(msj).then((contains)=>{
         //cy.log(contains)
         cy.log("CP evento Entrada exitoso")  
         cy.wait(2000)
-    })  
+    }) 
+    } 
 }) 
 //Fin rutina eventos por formulario
 
@@ -265,13 +271,13 @@ Cypress.Commands.add("rutinaEventosListadoMasFormulario", (url_entrada, arry_inp
         
         //Guardar evento
     cy.get('#shipment_card_button_save').should('be.visible').click() 
-    
-    //Validar mensaje de evento
+
+        //Validar mensaje de evento
     cy.get('.toast-message').contains(msj).then((contains)=>{
         //cy.log(contains)
         cy.log("CP evento Entrada exitoso")  
         cy.wait(2000)
-    })  
+    })    
 })
 //Fin rutina eventos por listado + formulario
 
