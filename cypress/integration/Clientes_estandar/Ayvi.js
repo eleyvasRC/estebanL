@@ -23,10 +23,8 @@ describe('Detonación de eventos Clientes Estandar', function()
         })
        
     })
-
      //CP Carga de citas
      it('Carga de citas', function(){
-
         //Llamar rutina rutinaCargaCitastxt
         cy.rutinaCargaArchivosTXT
         (this.param.modulos.planeacion.carga_citas, this.param.archivos.carga_citas_txt_ayvi,this.param.archivos.nume_citas)
