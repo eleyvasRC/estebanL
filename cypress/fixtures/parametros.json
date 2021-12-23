@@ -31,6 +31,15 @@
         "mensaje2": "Este evento ya fue registrado en otro momento",
         "mensaje3": "Viaje no encontrado"
         },
+        "credenciales_whirlpool":
+        {
+        "cliente": "whirlpool",
+        "user": "admin_whirlpool",
+        "password": "Password135$",
+        "mensaje": "Registro exitoso",
+        "mensaje2": "Este evento ya fue registrado en otro momento",
+        "mensaje3": "Viaje no encontrado"
+        },
       "credenciales_ferrero":
         {
         "cliente": "ferrero",
@@ -40,6 +49,33 @@
         "mensaje2": "Este evento ya fue registrado en otro momento",
         "mensaje3": "Viaje no encontrado"
         },
+        "credenciales_loreal":
+        {
+        "cliente": "ferrero",
+        "user": "admin_ferrero_corp",
+        "password": "Password135#",
+        "mensaje": "Registro exitoso",
+        "mensaje2": "Este evento ya fue registrado en otro momento",
+        "mensaje3": "Viaje no encontrado"
+        },
+        "credenciales_proteak":
+        {
+        "cliente": "proteak",
+        "user": "admin_proteak",
+        "password": "Password123$",
+        "mensaje": "Registro exitoso",
+        "mensaje2": "Este evento ya fue registrado en otro momento",
+        "mensaje3": "Viaje no encontrado"
+        },
+        "credenciales_kimberly":
+        {
+        "cliente": "kimberly",
+        "user": "admin_kimberly",
+        "password": "Kimberly2020$",
+        "mensaje": "Registro exitoso",
+        "mensaje2": "Este evento ya fue registrado en otro momento",
+        "mensaje3": "Viaje no encontrado"
+        },        
       "credenciales_vasconia":
           {
           "cliente": "vasconia",
@@ -97,6 +133,10 @@
     "carga_pedidos_txt_vasconia": "carga_pedidos_vasconia.txt",
     "carga_pedidos_txt_ayvi": "Carga_pedidos_Ayvi.txt",
     "carga_citas_txt_unilever": "Carga_citas_unilever.txt",
+     "carga_citas_txt_proteak": "Carga_citas_proteak.txt",
+    "carga_citas_txt_whirlpool": "Carga_citas_whirlpool.txt",
+    "carga_pedidos_txt_kimberly": "carga_pedidos_txt_kimberly.txt",
+    "carga_pedidos_txt_autozone": "PedidosAutozone.txt",
     "nume_citas": "3",
     "nume_pedidos": "2"
     }
