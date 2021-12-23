@@ -62,5 +62,5 @@ describe('Detonación de eventos Clientes Estandar', function()
     })
     //Fin CP
 
-//comentario para destrabar 
+//comentario para cambios
 })
