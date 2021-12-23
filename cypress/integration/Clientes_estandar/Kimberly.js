@@ -28,6 +28,7 @@ describe('Detonación de eventos Clientes Estandar', function()
         //rutina evento entrada
         cy.rutinaEventosFormulario
         (this.param.modulos.eventos.entrada, this.inputs.inputs_kimberly, this.param.credenciales.credenciales_kimberly.mensaje)
+        
     }) 
     //fin evento entrada
     //evento de incio de carga
