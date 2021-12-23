@@ -1,7 +1,7 @@
 {
   "ambiente":
     {
-      "url_amb": "http://15551.qa.rcontrol.com.mx/User/LogOut"
+      "url_amb": "https://14754.qa.rcontrol.com.mx/corp/index.html"
     },
     "credenciales":{
       "credenciales_ayvi":
@@ -13,6 +13,7 @@
         "mensaje2": "Este evento ya fue registrado en otro momento",
         "mensaje3": "Viaje no encontrado"
         },
+        
       "credenciales_autozone":
         {
         "cliente": "autozone",
@@ -24,7 +25,7 @@
         },  
         "credenciales_unilever":
         {
-        "cliente": "autozone",
+        "cliente": "unilever",
         "user": "admin_unilever_op",
         "password": "Password123$",
         "mensaje": "Registro exitoso",
@@ -79,21 +80,12 @@
       "inic_carga": "START_LOAD",
       "fin_carga": "END_LOAD",
       "docs": "DOCUMENT",
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "docsA": "document",
-      "salida": "EXIT",
-      "Generico1":"GENERIC_01"
-=======
-      "salida": "EXIT"
->>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
-=======
       "salida": "EXIT",
       "generico_01": "GENERIC_01",
       "generico_02": "GENERIC_02",
       "generico_03": "GENERIC_03",
       "enrampe": "ENRAMPE"
->>>>>>> 91b773b19f2e8ba5dfd3ca9d2d00ab5dc8fc4d46
+
       },
     "tendering":
       {
@@ -108,6 +100,7 @@
     {
     "carga_citas_txt_iron_demo": "Citas_pruebas_qa.txt",
     "carga_citas_txt_ayvi": "Carga_citas_ayvi.txt",
+    "carga_citas_txt_unilever": "Carga_citas_unilever.txt",
     "carga_pedidos_txt_autozone": "PedidosAutozone.txt",
     "carga_pedidos_txt_vasconia": "carga_pedidos_vasconia.txt",
     "nume_citas": "3",

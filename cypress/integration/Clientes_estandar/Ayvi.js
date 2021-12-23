@@ -1,13 +1,14 @@
 /// <reference types="Cypress"/>
 
 //Suite de primeros CP
-describe('Detonación de eventos estandar AYVI', function()
+describe('Detonación de eventos Clientes Estandar', function() 
 {
 
     beforeEach(() => { 
         
         //Llamar rutina carga de configuración cliente
-         //Cargar parametros de parametros.json 
+    
+        //Cargar parametros de parametros.json 
         cy.fixture('parametros').then(function(param){
             this.param = param
 
@@ -20,7 +21,7 @@ describe('Detonación de eventos estandar AYVI', function()
         cy.fixture('inputs').then(function(inputs){
             this.inputs = inputs
         })
-
+       
     })
 
      //CP Carga de citas
@@ -33,7 +34,7 @@ describe('Detonación de eventos estandar AYVI', function()
     })  
     //Fin CP
 
-    })  
+
     //CP evento Entrada
      it('Evento Entrada Ayvi', function(){
         
@@ -86,3 +87,5 @@ describe('Detonación de eventos estandar AYVI', function()
         
     }) 
     //Fin CP
+
+})

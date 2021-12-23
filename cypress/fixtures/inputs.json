@@ -1,21 +1,10 @@
 {
     "inputs_ayvi": [
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
             "caso_prueba": "Registro exitoso",
             "mensaje": "Viaje no encontrado",
             "credencial_condutor_cert": "70525",
-            "shipment": "ESTEBAN0311T",
-=======
-            "credencial_condutor_cert": "70525",
             "shipment": "EST0012",
->>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
-=======
-           
-            "credencial_condutor_cert": "70525",
-            "shipment": "ESTEBAN03110",
->>>>>>> 91b773b19f2e8ba5dfd3ca9d2d00ab5dc8fc4d46
             "eco_caja": "123",
             "trailer_eco": "prueba eco",
             "aux_1": "Pruebaazux",
@@ -28,15 +17,7 @@
             "trailer_plate": "123",
             "truck_plate": "prueba eco",
             "certificated_driver": "70525",
-<<<<<<< HEAD
-            "uncertificated_driver": "Esteban Leyva conductor"
-=======
             "uncertificated_driver": "Esteban Leyva conductor",
-<<<<<<< HEAD
-            "confirmation": "texto cualquiera"
->>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
-=======
-            "confirmation": "texto cualquiera",
             "transline":"13",
             "truck_type":"13",
             "reject_reason":"13",
@@ -57,7 +38,7 @@
             "_shipment_detail":"13",
             "_confirm_btn":"13",
             "carga_documentos":"13"
->>>>>>> 91b773b19f2e8ba5dfd3ca9d2d00ab5dc8fc4d46
+
         }
     ],
     "inputs_autozone": [
@@ -136,11 +117,8 @@
             "tendering_status":"13",
             "src_location_name":"13",
             "dst_location_name":"13",
-            "_assing_btn":"13",
-            "transline":"12",
-            "truck_eco":"12",
-            "truck_type":"12",
-            "driver_name":"13",
+            "assing_btn":"13",
+            
             "transline_name":"12",
             "srca_entrance":"12",
             "manual_cost":"13",
@@ -193,96 +171,7 @@
             "carga_documentos":"123"
         }
     ],
-    "inputs_colgate": [
-        {
-            "caso_prueba": "Registro exitoso",
-            "mensaje": "Viaje no encontrado",
-            "credencial_condutor_cert": "70525",
-            "shipment": "df",
-            "eco_caja": "123",
-            "trailer_eco": "prueba eco",
-            "aux_1": "Pruebaazux",
-            "aux_2": "Pruebaazux2",
-            "aux_3": "Pruebaazux3",
-            "credencial_condutor_no_cert": "df",
-            "lt": "Rc",
-            "aux_4": "Pruebaazux4",
-            "note": "df",
-            "carga_documentos":"13",
-            "datetime":"13",
-            "category_id":"13",
-            "mobile_tracking":"13",
-            "time_in_transit":"13",
-            "vehicle_plate":"13",
-            "src_app_transline_name":"13",
-            "src_location_name":"13",
-            "src_fh_created":"13",
-            "src_app_exit":"13",
-            "src_aux_1":"13",
-            "src_aux_2":"13",
-            "src_ext_gps_avl":"13",
-            "dst_location_name":"13",
-            "dst_app_entrance":"13",
-            "eta_date":"13",
-            "dst_reg_entrance":"13",
-            "_dst_ent_map":"13",
-            "_dst_ent_devRegister":"13",
-            "_dst_ent_semaphore":"13",
-            "dst_ent_gps_avl":"13",
-            "equiv":"13",
-            "aux_5":"13",
-            "activitynum":"13",
-            "time_in_destiny":"13",
-            "trailer_plate":"13",
-            "trailer_status":"13",
-            "src_reg_transline_name":"13",
-            "src_reg_entrance":"13",
-            "src_reg_exit":"13",
-            "src_ent_note":"13",
-            "src_ext_note":"13",
-            "src_gen02_driver":"13",
-            "driver_picture":"13",
-            "ransline_name":"13",
-            "truck_plate":"13",
-            "dst_confirmation":"13",
-            "src_transline_name":"13",
-            "src_driver_full_name":"13",
-            "src_authorized_person_name":"13",
-            "src_shipment":"13",
-            "trailer1_status":"13",
-            "trailer1_plate":"13",
-            "dsta_first_event_date":"13",
-            "location_name":"13",
-            "source":"13",
-            "_event_name":"13",
-            "event_date":"13",
-            "_id":"13",
-            "_datecreated":"13",
-            "_lat":"13",
-            "_lng":"13",
-            "_speed":"13",
-            "_asset":"13",
-            "cita_carga":"13",
-            "maps_origen":"13",
-            "corporativo_destino":"13",
-            "localidad_destino":"13",
-            "parada":"13",
-            "cita_llegada":"13",
-            "maps_destino":"13",
-            "eta_punto_destino":"13",
-            "Origen":"13",
-            "Destino":"13",
-            "driver_required":"13",
-            "certificated_driver":"13",
-            "seal1":"13",
-            "src_reg_startload":"13",
-            "_confirm_btn_form":"13"
-        }
-<<<<<<< HEAD
-    ]
-}
-=======
-    ],
+    
     "inputs_bimbo": [
         {
             "caso_prueba": "Registro exitoso",
@@ -741,18 +630,19 @@
             "_confirm_btn_form": "13"
         }
     ],
-    "inputs_proteak": [
+    "inputs_unilever": [
         {
             "caso_prueba": "Registro exitoso",
             "mensaje": "Viaje no encontrado",
-            "credencial_condutor_cert": "70525",
-            "shipment": "df",
+            "credencial_condutor_cert": "1064357",
+            "shipment": "TEST21209CT019",
             "eco_caja": "123",
             "trailer_eco": "prueba eco",
             "aux_1": "Pruebaazux",
             "aux_2": "Pruebaazux2",
             "aux_3": "Pruebaazux3",
-            "credencial_condutor_no_cert": "df",
+            "truck_eco": "12",
+            "credencial_condutor_no_cert": "1064357",
             "lt": "Rc",
             "aux_4": "Pruebaazux4",
             "note": "df",
@@ -807,7 +697,7 @@
             "localidad_origen": "13",
             "cita_carga": "13",
             "trailer_status": "13",
-            "certificated_driver": "13",
+            "certificated_driver": "1064357",
             "informative_date": "13",
             "src_reg_startload": "13",
             "_confirm_btn_form": "13"
@@ -885,9 +775,6 @@
             "_confirm_btn_form": "13"
         }
     ]
-<<<<<<< HEAD
+
 }
->>>>>>> e404bd213ca5964197cdd7d43cd85e4c21b5c006
-=======
-}
->>>>>>> 91b773b19f2e8ba5dfd3ca9d2d00ab5dc8fc4d46
+

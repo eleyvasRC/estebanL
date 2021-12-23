@@ -18,6 +18,7 @@
 import './rutinas_eventos';
 import 'cypress-mochawesome-reporter/register';
 import './rutinas_planeacion';
+
 //import './rutinas_tendering';
 //import './estres/rutinas_estres';
 
