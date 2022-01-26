@@ -8,7 +8,6 @@ describe('Detonación de eventos Clientes Estandar', function()
         
         //Llamar rutina carga de configuración cliente
     
-        //Cargar parametros de parametros.json 
         cy.fixture('parametros').then(function(param){
             this.param = param
 
@@ -19,9 +18,10 @@ describe('Detonación de eventos Clientes Estandar', function()
 
          //Cargar Inputs de inputs.json
         cy.fixture('inputs').then(function(inputs){
-            this.inputs = inputs        })
-       
-    })
+            this.inputs = inputs       
+            
+            })
+        })
      //CP Carga de citas
      it('Carga de citas', function(){
         //Llamar rutina rutinaCargaCitastxt

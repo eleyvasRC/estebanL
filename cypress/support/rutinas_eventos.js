@@ -113,7 +113,7 @@ Cypress.Commands.add("rutinaEventosFormulario", (url_event, array_inputs, msj, c
 Cypress.Commands.add("rutinaEventosListado", (url_documentos, inputs) => {
     
     //Preparado para interceptar FeatureConfig de pantalla
-    cy.intercept('  ', '**/FeatureConfig').as('clientConfig')
+    cy.intercept('POST', '**/FeatureConfig').as('clientConfig')
     
     //Ingresar a evento
     cy.get('.has_sub a[href*="feature_key='+url_documentos+'"]').click({ force: true })
@@ -152,7 +152,7 @@ Cypress.Commands.add("rutinaEventosListado", (url_documentos, inputs) => {
         
         //Confirmar viaje
         cy.get('.btn-danger[onclick*="'+campo_int_2+'"]').should('be.visible').click()
-        cy.wait(1000)
+        cy.wait(4000)
         
         //confirmar acción
         cy.get('.confirm').should('be.visible').click()
@@ -180,7 +180,7 @@ Cypress.Commands.add("rutinaEventosListadoMasFormulario", (url_entrada, arry_inp
         
         //Confirmar viaje
         cy.get('.btn-danger[onclick*="'+campo_int_2+'"]').should('be.visible').click()
-        cy.wait(1000)
+        cy.wait(4000)
     })
 
           //nuevo Esteban
@@ -239,9 +239,16 @@ Cypress.Commands.add("rutinaEventosListadoMasFormulario", (url_entrada, arry_inp
 
                     var campo_int_2 = cms2[campo]
                     cy.log(campo_int_2)
-                    
+
+                    if(campo == 'trailer_status' || campo == 'cp_vehicle_type' || campo == 'carga_documentos' || campo == 'note'){
+
+                        cy.get('#'+campo).should('be.visible').select(campo_int_2)
+                        
+                    }
+                    else {
                         //Ingresar datos en campos
-                    cy.get('#'+campo).should('be.visible').type(campo_int_2)
+                  cy.get('#'+campo).should('be.visible').type(campo_int_2)
+                }
 
                 })
             }

@@ -1,7 +1,7 @@
 {
   "ambiente":
     {
-      "url_amb": "https://test.rcontrol.com.mx/User/LogOut"
+      "url_amb": "http://xhydra.qa.rcontrol.com.mx/User/LogOut"
     },
     "credenciales":{
       "credenciales_ayvi":
