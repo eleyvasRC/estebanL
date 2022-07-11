@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "cypress-file-upload": "^5.0.8",
     "react-scripts": "^4.0.3"
   },
   "scripts": {
@@ -30,6 +29,7 @@
   "homepage": "https://github.com/eleyvasRC/estebanL#readme",
   "devDependencies": {
     "cypress": "^10.3.0",
+    "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^2.3.0"
   }
 }
