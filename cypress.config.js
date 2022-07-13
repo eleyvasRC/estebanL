@@ -1,7 +1,8 @@
 const { defineConfig } = require('cypress')
+
 module.exports = defineConfig({
   chromeWebSecurity: false,
-  projectId: '',
+  projectId: 'ae4eqw',
   screenshotOnRunFailure: true,
   reporter: 'cypress-mochawesome-reporter',
   reporterOptions: {
@@ -9,7 +10,7 @@ module.exports = defineConfig({
     charts: true,
     reportPageTitle: 'custom-title',
     embeddedScreenshots: true,
-    viewportWidth: 1200,
+    viewportWidth: 1000,
     viewportHeight: 660,
   },
   e2e: {

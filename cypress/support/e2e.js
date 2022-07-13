@@ -16,7 +16,8 @@
 
 // Import commands.js using ES2015 syntax:
 import './rutinas_eventos';
-//import './rutinas_planeacion';
+import 'cypress-mochawesome-reporter/register';
+import './rutinas_planeacion';
 //import './rutinas_tendering';
 //import './estres/rutinas_estres';
 
