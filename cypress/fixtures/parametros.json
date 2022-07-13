@@ -1,7 +1,7 @@
 {
   "ambiente":
     {
-      "url_amb": "https://test.rcontrol.com.mx/User/LogOut"
+      "url_amb": "https://xhydra.qa.rcontrol.com.mx/Corp/index.html"
     },
     "credenciales":{
       "credenciales_ayvi":
@@ -26,7 +26,7 @@
         {
         "cliente": "orbis",
         "user": "admin_orbis",
-        "password": "Soporte135*",
+        "password": "Password135$",
         "mensaje": "Registro exitoso",
         "mensaje2": "Este evento ya fue registrado en otro momento",
         "mensaje3": "Viaje no encontrado"
@@ -133,10 +133,10 @@
     "carga_pedidos_txt_vasconia": "carga_pedidos_vasconia.txt",
     "carga_pedidos_txt_ayvi": "Carga_pedidos_Ayvi.txt",
     "carga_citas_txt_unilever": "Carga_citas_unilever.txt",
-     "carga_citas_txt_proteak": "Carga_citas_proteak.txt",
+    "carga_citas_txt_proteak": "Carga_citas_proteak.txt",
     "carga_citas_txt_whirlpool": "Carga_citas_whirlpool.txt",
     "carga_pedidos_txt_kimberly": "carga_pedidos_txt_kimberly.txt",
-    "carga_pedidos_txt_autozone": "PedidosAutozone.txt",
+    "carga_pedidos_txt_orbis": "carga_pedidos_orbis.txt",
     "nume_citas": "3",
     "nume_pedidos": "2"
     }

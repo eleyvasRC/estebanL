@@ -14,7 +14,7 @@ describe('Detonación de eventos Clientes Estandar', function()
 
             //Llamar rutina login
             cy.login
-            (this.param.ambiente.url_amb, this.param.credenciales.credenciales_whirlpool.user, this.param.credenciales.credenciales_whirlpool.password)
+            (this.param.ambiente.url_amb, this.param.credenciales.credenciales_orbis.user, this.param.credenciales.credenciales_orbis.password)
         })
 
          //Cargar Inputs de inputs.json
@@ -24,21 +24,18 @@ describe('Detonación de eventos Clientes Estandar', function()
        
     })
      //CP Carga de citas
-     it('Carga de citas', function(){
+     it('Carga de pedidos', function(){
         //Llamar rutina rutinaCargaCitastxt
         cy.rutinaCargaArchivosTXT
-        (this.param.modulos.planeacion.carga_citas, this.param.archivos.carga_citas_txt_whirlpool,this.param.archivos.nume_citas)
-        
-    })  
-    //Fin CP
-
-    //CP evento Entrada
-     it('Evento Entrada', function(){
-       
-        //Llamar rutina rutinaEventosListado
-        cy.rutinaEventosListadoMasFormulario
-        (this.param.modulos.eventos.entrada, this.inputs.inputs_whirlpool, this.param.credenciales.credenciales_whirlpool.mensaje)
+        (this.param.modulos.planeacion.carga_pedidos, this.param.archivos.carga_pedidos_txt_orbis,this.param.archivos.nume_citas) 
+        })  
+    
+     //CP Conformador de Viajes
+     it('Conformador de viajes', function(){
+        //Llamar rutina Conformador de Viajes
+       cy.rutinaConformadorViajes
+        (this.param.modulos.planeacion.conformador_viajes, this.inputs.inputs_orbis, this.param.credenciales.credenciales_orbis.mensaje)
     })
+})
 
- })  
     //Fin CP
